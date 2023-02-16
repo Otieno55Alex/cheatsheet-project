@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my cheatsheet</title>
+<link rel="stylesheet" href="/Resources/css/index.css">
+    </head>
+    <body>
+        <header>
+            <h1 id="header"> My cheatsheet</h1>
+           
+        </header>
+        <div>
+            <h2>How to use html and Css on Vs Code</h2>
+        </div>
+        <div>
+            <h3>Steps</h3>
+            <ol>
+                <li>Create a file on your desktop or any other directory</li>
+                <li>Open your editor then click open folder( select the folder you created in your desktop)</li>
+                <li>It will display on your editor, the create a file on it and name it index.html </li>
+                <li>Create a folder on your parent file and name it Resources</li>
+                <li>Create a file on resources and name it index.css</li>
+                <li>In the editor on index.html start by typing  a document declaration<br><em class="code"> (!DOCTYPE html)</em></li>
+                <li>Then  type the document type <br> <em>&lthtml&gt&lt/html&gt <br></em> which will enclose the entire document</li>
+                <li>Then within <em class="code">&lthtml&gt&lt/html&gt</em>thats where the <em>&lt title&gt&lt/title&gt</em> and the body element tag goes to <br>
+                <strong>what is in the title tag appears in the browser while what is in the body appears in the page(window)</strong>
+                <li>Then link the index.css file you created to your code index.html by inserting a link element tag on the <br> head element of the document as follows <br>
+                <em class="code">&ltlink rel="stylesheet" href="resources/index.css"&gt</em></li>
+
+            <li>Write your code inside the body element tag</li>
+            <li>For you to create code in the index.css sheet, create selectors from the index.html 
+                 codes i.e identifyers <br> like classes and id to work with in the 
+                index.css file. you can also use selector of elements in the index.html <br> file e.g &lth1&gt and write it as h {}  in css, <br>
+            <strong>if you give an element a class eg  &lth1 class="header"&gt,in the css file the selector will be <br>
+            <em class="note">.header {} for styling of all the contents in the  &lth1&gt element. You can also make  <strong>ids</strong> which 
+                which are used <br> when describing very specific instruction to to elements that you want to be unique in the documents <br> despite being within common element tags</em></strong></li>
+            
+            </ol>
+            
+        </div>
+        <figcaption><em>a table of an example of the use of html</em></figcaption>
+        <table border="2px">
+            <tr class="row 1">
+                <th>Element</th>
+                <th>tag</th>
+                <th>Description</th>
+            </tr>
+            <tr class="row 2">
+                <td>Headings</td>
+                <td>&lth1&gt,&lth2&gt,<br>  &lth3&gt,&lth4&gt, <br>&lth5&gt,&lth6&gt</td>
+                <td>Used to note titles in a document in <br> hierachy of document flow</td>
+            </tr>
+        </table>
+        <footer class="footer">By Alex Otieno | 16th Feb 2023</footer>
+    </body>
+</html>
