@@ -1,0 +1,61 @@
+#header{
+    color: blue;
+    font-weight: 800;
+    font-size: 80px;
+    background-color: bisque;
+    margin-bottom: 0;
+    padding: 15px;
+    
+}
+body {
+    font: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: auto;
+    margin: 50px;
+}
+ h2 {color: white;
+    background-color: black;
+    margin-top: 0;
+    padding: 8px;
+    opacity: 0.6;
+    font-family: 'Courier New', Courier, monospace;
+
+ }
+ h3 {color: red;
+    background-color: rgb(194, 192, 189);
+    padding: 6px;
+    margin-bottom: 0px;
+
+ }
+ .code {background-color: rgb(65, 10, 10);
+    color: white;
+    padding: 3px;
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: auto;
+    width: auto;
+
+
+
+
+ }
+.note {color: purple;
+    margin: 20px;
+
+}
+ol { color: rgb(161, 130, 130);
+    background-color: rgb(220, 248, 239);
+    padding-top: 12px;
+    margin-top: 0px;
+
+}
+footer{
+    color: rgb(50, 83, 17);
+}
+td {
+    color: maroon;
+}
+.row 1 {
+    color: #000;
+}
